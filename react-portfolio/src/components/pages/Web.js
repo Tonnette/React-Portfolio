@@ -1,23 +1,8 @@
 import React from "react";
-import "./assets/css/style.css"
+import "../assets/css/style.css"
 
-function HelloBootstrap() {
+function Web() {
   return (
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <div className="container">
         <div className="row">
@@ -66,7 +51,7 @@ function HelloBootstrap() {
                     <div className="row myRowBio">
                         <div className="col-lg-12 col-md-12 col-sm-12">
                             <p className="myText">
-                                <img className="float-left mr-2 mb-1 myImage" src={require("./assets/images/ton.jpg")}
+                                <img className="float-left mr-2 mb-1 myImage" src={require("../assets/images/ton.jpg")}
                                     alt="toni posing for a photo in New Zealand" /> Tonnette is a full stack Web Developer based in
                                 Sydney. She is currently completing a coding
                                 bootcamp run by Sydney University and Trilogy Education. She has skills is HTML, CSS,
@@ -117,7 +102,7 @@ function HelloBootstrap() {
 
 
                                 <a href="https://lit-peak-86961.herokuapp.com/" target="_blank">
-                                    <img className="float-left mr-2 mb-1 myImage" src={require("./assets/images/Project2.png")}
+                                    <img className="float-left mr-2 mb-1 myImage" src={require("../assets/images/Project2.png")}
                                         alt="screenshot of Movie Review App" />
 
                                 </a>
@@ -180,7 +165,7 @@ function HelloBootstrap() {
 
 
                                 <a href="https://peaceful-savannah-89179.herokuapp.com/" target="_blank">
-                                    <img className="float-left mr-2 mb-1 myImage" src={require("./assets/images/Burger.png")}
+                                    <img className="float-left mr-2 mb-1 myImage" src={require("../assets/images/Burger.png")}
                                         alt="screenshot of Burger App" />
 
                                 </a>
@@ -230,7 +215,7 @@ function HelloBootstrap() {
 
 
                                 <a href="https://jeqp.github.io/mixer-upper/index.html" target="_blank">
-                                    <img className="float-left mr-2 mb-1 myImage" src={require("./assets/images/mixer.jpg")}
+                                    <img className="float-left mr-2 mb-1 myImage" src={require("../assets/images/mixer.jpg")}
                                         alt="screenshot of cocktail website" />
 
                                 </a>
@@ -278,7 +263,7 @@ function HelloBootstrap() {
 
 
                                 <a href="https://tonnette.github.io/" target="_blank">
-                                    <img className="float-left mr-2 mb-1 myImage" src={require("./assets/images/weather.jpg")}
+                                    <img className="float-left mr-2 mb-1 myImage" src={require("../assets/images/weather.jpg")}
                                         alt="screenshot of weather website" />
 
                                 </a>
@@ -327,7 +312,7 @@ function HelloBootstrap() {
 
 
                                 <a href="https://tonnette.github.io/quiz/" target="_blank">
-                                    <img className="float-left mr-2 mb-1 myImage" src={require("./assets/images/quiz.jpg")}
+                                    <img className="float-left mr-2 mb-1 myImage" src={require("../assets/images/quiz.jpg")}
                                         alt="quiz webpage screenshot" />
 
                                 </a>
@@ -376,7 +361,7 @@ function HelloBootstrap() {
                             <p className="myText">
 
                                 <a href="https://tonnette.github.io/day-planner/" target="_blank">
-                                    <img className="float-left mr-2 mb-1 myImage" src={require("./assets/images/work.jpg")} 
+                                    <img className="float-left mr-2 mb-1 myImage" src={require("../assets/images/work.jpg")} 
                                         alt="scheduler webpage screenshot" />
 
                                 </a>
@@ -412,4 +397,4 @@ function HelloBootstrap() {
   );
 }
 
-export default HelloBootstrap;
+export default Web;
