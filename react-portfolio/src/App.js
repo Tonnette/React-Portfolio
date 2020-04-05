@@ -6,7 +6,7 @@ import Films from "./components/pages/Films";
 import Screenings from "./components/pages/Screenings";
 import Awards from "./components/pages/Awards";
 import Contact from "./components/pages/Contact";
-import Navbar from "./components/Navbar";
+import Mynavbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Wrapper from "./components/Wrapper";
@@ -16,7 +16,7 @@ function App() {
   return (
 <Router>
       <div>
-        <Navbar />
+        <Mynavbar />
        
           <Route exact path="/" component={Web} />
           <Route exact path="/home" component={Home} />
