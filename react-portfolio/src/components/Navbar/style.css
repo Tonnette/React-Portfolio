@@ -1,3 +1,15 @@
 nav.navbar.navbar-default {
     margin-bottom: 0;
 }
+
+.center-navbar {
+    width: 30%;
+    margin-left: 35%;
+}
+
+@media (min-width: 1000px) {
+    .centredNav {
+        margin: 0 auto;
+        width: 320px;
+    }
+}
