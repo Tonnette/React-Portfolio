@@ -1,17 +1,196 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../assets/css/style.css"
 
-function Web() {
+function Films() {
   return (
-   <div className="container">
+
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-12 col-md-12 col-sm-12">
+          <p className="myName">Tonnette Stanford</p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-5 col-md-5 col-md-offset-1 col-sm-5 col-xs-5 red">
+          <Link
+            to="/"
+            className={
+              window.location.pathname === "/" || window.location.pathname === "/"
+
+            }
+          >
+            WEB DEVELOPER
+            </Link>
+        </div>
+        <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 green">
+          <p className="sep">|</p>
+        </div>
+
+
+        <div className="col-lg-4 col-md-5 col-sm-4 col-xs-5 blue">
+          <Link
+            to="/films"
+            className={
+              window.location.pathname === "/films" || window.location.pathname === "/films"
+
+            }
+          >
+            WRITER/DIRECTOR
+            </Link>
+        </div>
+
+
+      </div>
+
+
+      <div className="card">
+        <div className="card-header">
+          FILM BIO
+        </div>
+
+      </div>
+
+      <div className="container">
         <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12">
-                <p className="myName">Films</p>
+          <div className="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
+            <div className="container myContainer myContainerIndex">
+
+
+              <div className="row myRowBio">
+                <div className="col-lg-12 col-md-12 col-sm-12">
+                  <p className="myText">
+                    <img className="float-left mr-2 mb-1 myImage" src={require("../assets/images/ton.jpg")} alt="toni puts on jacket" /> Tonnette is Sydney based a trained writer and director. She is a graduate of the Australian Film Television and Radio
+                                School (AFTRS), the Victorian College of the Arts (VCA) and the University of Technology Sydney (UTS). Her films have won numerous awards and have screened at over 200 festivals internationally and nationally, including
+                                Oscar recognised festivals. Her film, Holding Hands is a multi-award winning feature documentary that is distributed by CFMDC Distribution in Canada. Her AFTRS film, Slut – The Musical is distributed by Ouat Media Inc.
+                                in Canada and has recently has been sold to Canal +France and Canal +Spain and has reached #1 on iTunes.
+
+
+                            </p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+
+      <div className="container-fluid myContainer ">
+        <div className="row firstRow row-centered">
+          <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
+            <div className="card rompCard">
+              <a href="romp.html">
+                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <div className="middle1">
+                  <div className="text1">Romp | Web Series</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
+            <div className="card rompCard">
+              <a href="romp.html">
+                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <div className="middle1">
+                  <div className="text1">Romp | Web Series</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
+            <div className="card rompCard">
+              <a href="romp.html">
+                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <div className="middle1">
+                  <div className="text1">Romp | Web Series</div>
+                </div>
+              </a>
+            </div>
+          </div>
+         
         </div>
-    
+        <div className="row firstRow row-centered">
+        <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
+            <div className="card rompCard">
+              <a href="romp.html">
+                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <div className="middle1">
+                  <div className="text1">Romp | Web Series</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
+            <div className="card rompCard">
+              <a href="romp.html">
+                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <div className="middle1">
+                  <div className="text1">Romp | Web Series</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
+            <div className="card rompCard">
+              <a href="romp.html">
+                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <div className="middle1">
+                  <div className="text1">Romp | Web Series</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+
+
+
+
+
+          </div>
+          <div className="row firstRow row-centered">
+          <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
+            <div className="card rompCard">
+              <a href="romp.html">
+                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <div className="middle1">
+                  <div className="text1">Romp | Web Series</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
+            <div className="card rompCard">
+              <a href="romp.html">
+                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <div className="middle1">
+                  <div className="text1">Romp | Web Series</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
+            <div className="card rompCard">
+              <a href="romp.html">
+                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <div className="middle1">
+                  <div className="text1">Romp | Web Series</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+
+
+            </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
   );
 }
 
-export default Web;
+export default Films;

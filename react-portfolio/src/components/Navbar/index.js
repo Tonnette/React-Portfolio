@@ -4,11 +4,7 @@ import "./style.css";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import { Row, Col } from "react-bootstrap"
+
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Mynavbar() {
