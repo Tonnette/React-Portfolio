@@ -1,53 +1,69 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../assets/css/style.css"
+import Carousel from 'react-bootstrap/Carousel';
 
 
-function Toncard() {
+function CodeCarousel() {
   return (
- <div className="container">
-            <div className="row">
-                <div className="col-lg-12 col-md-12 col-sm-12">
-                    <p className="myName">Tonnette Stanford</p>
-                </div>
-            </div>
 
-            <div className="row">
-                <div className="col-lg-5 col-md-5 col-md-offset-1 col-sm-5 col-xs-5 red">
-                    <Link
-                        to="/"
-                        className={
-                            window.location.pathname === "/" || window.location.pathname === "/"
+        <Carousel>
+            <Carousel.Item>
+    <img
+      className="d-block w-90"
+     src={require("../assets/images/carousel/mixer.jpg")} className="d-block w-100" 
+     alt="girls sitting on jetty" />
+    
+  
+  </Carousel.Item>
 
-                        }
-                    >
-                        WEB DEVELOPER
-            </Link>
-                </div>
+    <Carousel.Item>
+    <img
+      className="d-block w-90"
+     src={require("../assets/images/carousel/movies.jpg")} className="d-block w-100" 
+     alt="man in a cape" />
+    
+  
+  </Carousel.Item>
+
+    <Carousel.Item>
+    <img
+      className="d-block w-90"
+     src={require("../assets/images/carousel/quiz.jpg")} className="d-block w-100" 
+     alt="animated penguin in snow" />
+    
+  
+  </Carousel.Item>
+
+    
+
+    <Carousel.Item>
+    <img
+      className="d-block w-90"
+     src={require("../assets/images/carousel/schedule.jpg")} className="d-block w-100" 
+     alt="man in bed with mayo on his face" />
+ 
+  </Carousel.Item>
+
+   <Carousel.Item>
+    <img
+      className="d-block w-90"
+     src={require("../assets/images/carousel/weather.jpg")} className="d-block w-100" 
+     alt="Nurses" />
+    
+
+  </Carousel.Item>
+
+   
+</Carousel>
 
 
 
 
-                <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 green">
-                    <p className="sep">|</p>
-                </div>
 
 
-                <div className="col-lg-4 col-md-5 col-sm-4 col-xs-5 blue">
-                    <Link
-                        to="/films"
-                        className={
-                            window.location.pathname === "/films" || window.location.pathname === "/films"
 
-                        }
-                    >
-                        WRITER/DIRECTOR
-            </Link>
-                </div>
-
-
-            </div>
-             </div>
   );
 }
 
-export default Toncard;
+export default CodeCarousel;

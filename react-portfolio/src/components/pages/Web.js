@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/style.css"
 import Carousel from 'react-bootstrap/Carousel';
+import CodeCarousel from '../Carousel/CodeCarousel';
+import WebBio from '../WebBio';
+import pdf from '../assets/TonCV.pdf'
 
 function Web() {
     return (
@@ -13,109 +16,14 @@ function Web() {
 
             </div>
 
-
-       
-
-<Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-90"
-     src={require("../assets/images/carousel/mixer.jpg")} className="d-block w-100" 
-     alt="girls sitting on jetty" />
+  <div className="container">
     
-  
-  </Carousel.Item>
+<CodeCarousel />
 
-    <Carousel.Item>
-    <img
-      className="d-block w-90"
-     src={require("../assets/images/carousel/movies.jpg")} className="d-block w-100" 
-     alt="man in a cape" />
-    
-  
-  </Carousel.Item>
-
-    <Carousel.Item>
-    <img
-      className="d-block w-90"
-     src={require("../assets/images/carousel/quiz.jpg")} className="d-block w-100" 
-     alt="animated penguin in snow" />
-    
-  
-  </Carousel.Item>
-
-    
-
-    <Carousel.Item>
-    <img
-      className="d-block w-90"
-     src={require("../assets/images/carousel/schedule.jpg")} className="d-block w-100" 
-     alt="man in bed with mayo on his face" />
- 
-  </Carousel.Item>
-
-   <Carousel.Item>
-    <img
-      className="d-block w-90"
-     src={require("../assets/images/carousel/weather.jpg")} className="d-block w-100" 
-     alt="Nurses" />
-    
-
-  </Carousel.Item>
-
-   
-</Carousel>
+<WebBio />
 
 
 
-
-
-            <div className="card">
-                <div className="card-header">
-                    WEB DEVELOPER BIO
-        </div>
-
-            </div>
-
-
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
-                        <div className="container myContainer myContainerIndex">
-
-
-                            <div className="row myRowBio">
-                                <div className="col-lg-12 col-md-12 col-sm-12">
-                                    <p className="myText">
-                                        <img className="float-left mr-2 mb-1 myImage" src={require("../assets/images/ton.jpg")}
-                                            alt="toni posing for a photo in New Zealand" /> Tonnette is a full stack Web Developer based in
-                                Sydney. She is currently completing a coding
-                                bootcamp run by Sydney University and Trilogy Education. She has skills is HTML, CSS,
-                                JavaScript, JQuery, APIs, Bootstrap, Materialize, Node.js, MYSQL, NoSQL, MongoDB, MVC structure, CRUD, AJAX,
-                                Heroku. She has used numerous NPM packages in her projects including Express.js, Sequalize, Handlebars, Passport, Bcryptjs and Path
-
-
-                                <br />
-                                She has worked on numerous web
-                                projects including front-end websites, back-end and full-stack apps. Some of her project include a movie review app (group project), a
-                                burger app, a cocktail-making website (group project), a weather
-                                app, a day-planner, a password generator, and various other websites.
-
-                            </p>
-                                    <div className="profileButton">
-                                        <a href="https://github.com/Tonnette" target="_blank"
-                                            className="btn btn-outline-info">GitHub</a> &nbsp;
-                                <a href="https://www.linkedin.com/in/tonnette-stanford-16b99625/" target="_blank"
-                                            className="btn btn-outline-info">LinkedIn</a> &nbsp;
-                                <a href="./assets/TonCV.pdf" download className="btn btn-outline-info">CV</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
               <h1 className="webText">CODING PROJECTS</h1>
               <br></br>
             <div className="card">
@@ -463,6 +371,7 @@ function Web() {
                 </div>
             </div>
         </div>
+         </div>
     );
 }
 
