@@ -7,6 +7,7 @@ import Screenings from "./components/pages/Screenings";
 import Awards from "./components/pages/Awards";
 import Contact from "./components/pages/Contact";
 import Mynavbar from "./components/Navbar";
+import Toncard from "./components/Toncard";
 import Footer from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Wrapper from "./components/Wrapper";
@@ -17,7 +18,7 @@ function App() {
 <Router>
       <div>
         <Mynavbar />
-       
+       <Toncard />
           <Route exact path="/" component={Web} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/films" component={Films} />
