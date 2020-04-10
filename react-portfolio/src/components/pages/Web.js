@@ -1,11 +1,73 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/style.css"
+import Carousel from 'react-bootstrap/Carousel';
 
 function Web() {
     return (
+  <div className="container">
+            <div className="card">
+                <div className="card-header">
+                    CODING PROJECTS CAROUSEL
+        </div>
 
-         <div className="container">
+            </div>
+
+
+       
+
+<Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-90"
+     src={require("../assets/images/carousel/mixer.jpg")} className="d-block w-100" 
+     alt="girls sitting on jetty" />
+    
+  
+  </Carousel.Item>
+
+    <Carousel.Item>
+    <img
+      className="d-block w-90"
+     src={require("../assets/images/carousel/movies.jpg")} className="d-block w-100" 
+     alt="man in a cape" />
+    
+  
+  </Carousel.Item>
+
+    <Carousel.Item>
+    <img
+      className="d-block w-90"
+     src={require("../assets/images/carousel/quiz.jpg")} className="d-block w-100" 
+     alt="animated penguin in snow" />
+    
+  
+  </Carousel.Item>
+
+    
+
+    <Carousel.Item>
+    <img
+      className="d-block w-90"
+     src={require("../assets/images/carousel/schedule.jpg")} className="d-block w-100" 
+     alt="man in bed with mayo on his face" />
+ 
+  </Carousel.Item>
+
+   <Carousel.Item>
+    <img
+      className="d-block w-90"
+     src={require("../assets/images/carousel/weather.jpg")} className="d-block w-100" 
+     alt="Nurses" />
+    
+
+  </Carousel.Item>
+
+   
+</Carousel>
+
+
+
 
 
             <div className="card">
@@ -375,11 +437,10 @@ function Web() {
                                         </a>
 
 
-                                This calendar displays the current date and time and allows the user to put and save
-                                items for each hour of the day (between 9am-5pm). This info will save in local storage.
-                                Each hour is colour coded to reflect whether the time slot is in the past, the
-                                present, or the future. The colours will change depending on the time of day. Grey for
-                                past, pink for present and green for future hours. This website was built using
+                                This app displays the current date / time and allows the user to save
+                                items for each hour of the day (between 9-5pm). This info will save in local storage.
+                                Each hour is colour coded to reflect the time slot (the past, present or future). 
+                                The colours change depending on the time of day. This site was built using
                                 bootstrap, html, CSS, JavaScript, JQuery and Moment.js
                                 <br />
                                         <div className="profileButton">
