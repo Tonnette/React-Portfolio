@@ -40,7 +40,7 @@ function WebBio() {
                                             className="btn btn-outline-info">GitHub</a> &nbsp;
                                 <a href="https://www.linkedin.com/in/tonnette-stanford-16b99625/" target="_blank"
                                             className="btn btn-outline-info">LinkedIn</a> &nbsp;
-                                <a href="./assets/TonCV.pdf" download className="btn btn-outline-info">CV</a>
+                                <a href={pdf} target="_blank" className="btn btn-outline-info">CV</a>
                                     </div>
 
                                 </div>
