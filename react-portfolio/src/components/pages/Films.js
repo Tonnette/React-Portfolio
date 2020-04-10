@@ -89,9 +89,9 @@ function Films() {
           <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
             <div className="card rompCard">
               <a href="romp.html">
-                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <img src={require("../assets/images/thumbnails/egg-thumb.jpg")} className="card-img-top thumbnail romp" alt="animated penguins hugging egg" />
                 <div className="middle1">
-                  <div className="text1">Romp | Web Series</div>
+                  <div className="text1">The Egg | Animated Short Film</div>
                 </div>
               </a>
             </div>
@@ -99,9 +99,9 @@ function Films() {
           <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
             <div className="card rompCard">
               <a href="romp.html">
-                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <img src={require("../assets/images/thumbnails/milk-thumb.jpg")} className="card-img-top thumbnail romp" alt="two women look out to see" />
                 <div className="middle1">
-                  <div className="text1">Romp | Web Series</div>
+                  <div className="text1">Milk & Vodka | Short Drama</div>
                 </div>
               </a>
             </div>
@@ -112,9 +112,9 @@ function Films() {
         <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
             <div className="card rompCard">
               <a href="romp.html">
-                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <img src={require("../assets/images/thumbnails/lovebytes-thumb.jpg")} className="card-img-top thumbnail romp" alt="man on computer shocked" />
                 <div className="middle1">
-                  <div className="text1">Romp | Web Series</div>
+                  <div className="text1">Love Bytes | Web Series</div>
                 </div>
               </a>
             </div>
@@ -122,9 +122,9 @@ function Films() {
           <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
             <div className="card rompCard">
               <a href="romp.html">
-                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <img src={require("../assets/images/thumbnails/slut-thumb.jpg")} className="card-img-top thumbnail romp" alt="prefects strutting" />
                 <div className="middle1">
-                  <div className="text1">Romp | Web Series</div>
+                  <div className="text1">Slut - The Musical | Short Comedy</div>
                 </div>
               </a>
             </div>
@@ -132,9 +132,9 @@ function Films() {
           <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
             <div className="card rompCard">
               <a href="romp.html">
-                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <img src={require("../assets/images/thumbnails/wally-thumb.jpg")} className="card-img-top thumbnail romp" alt="girl eating cake" />
                 <div className="middle1">
-                  <div className="text1">Romp | Web Series</div>
+                  <div className="text1">Wally | Short Comedy</div>
                 </div>
               </a>
             </div>
@@ -150,9 +150,9 @@ function Films() {
           <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
             <div className="card rompCard">
               <a href="romp.html">
-                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <img src={require("../assets/images/thumbnails/vicious.jpg")} className="card-img-top thumbnail romp" alt="dancing girls" />
                 <div className="middle1">
-                  <div className="text1">Romp | Web Series</div>
+                  <div className="text1">The Vicious & the Delicious | Short Comedy</div>
                 </div>
               </a>
             </div>
@@ -160,9 +160,9 @@ function Films() {
           <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
             <div className="card rompCard">
               <a href="romp.html">
-                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <img src={require("../assets/images/thumbnails/holding-thumb.jpg")} className="card-img-top thumbnail romp" alt="mardi gras" />
                 <div className="middle1">
-                  <div className="text1">Romp | Web Series</div>
+                  <div className="text1">Holding Hands | Feature Documentary</div>
                 </div>
               </a>
             </div>
@@ -170,9 +170,9 @@ function Films() {
           <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
             <div className="card rompCard">
               <a href="romp.html">
-                <img src={require("../assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
+                <img src={require("../assets/images/thumbnails/Whyme-thumb.jpg")} className="card-img-top thumbnail romp" alt="awkward family photo" />
                 <div className="middle1">
-                  <div className="text1">Romp | Web Series</div>
+                  <div className="text1">Why Me? | Short Comedy</div>
                 </div>
               </a>
             </div>
