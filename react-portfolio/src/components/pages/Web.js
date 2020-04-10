@@ -99,9 +99,11 @@ function Web() {
                     </div>
                 </div>
             </div>
+              <h1 className="webText">CODING PROJECTS</h1>
+              <br></br>
             <div className="card">
                 <div className="card-header">
-                    WEB PROJECTS
+                    MOVIE REVIEW WEBSITE
         </div>
 
 
@@ -112,7 +114,7 @@ function Web() {
                     <div className="col-lg-8 col-md-8 col-sm-12">
                         <div className="container myContainer myContainerIndex">
                             <div className="col-lg-12 col-md-12 col-sm-12">
-                                <h1 className="webText">Movie Review App</h1>
+
                             </div>
 
                             <div className="row myRow-2">
@@ -167,7 +169,12 @@ function Web() {
             </div>
 
 
+    <div className="card">
+                <div className="card-header">
+                    BURGER APP
+        </div>
 
+            </div>
 
 
             <div className="container">
@@ -175,7 +182,7 @@ function Web() {
                     <div className="col-lg-8 col-md-8 col-sm-12">
                         <div className="container myContainer myContainerIndex">
                             <div className="col-lg-12 col-md-12 col-sm-12">
-                                <h1 className="webText">Eat Da Burger App</h1>
+                         
                             </div>
 
                             <div className="row myRow-2">
@@ -218,6 +225,12 @@ function Web() {
 
 
 
+  <div className="card">
+                <div className="card-header">
+                    COCKTAIL WEBSITE
+        </div>
+
+            </div>
 
 
             <div className="container">
@@ -225,7 +238,7 @@ function Web() {
                     <div className="col-lg-8 col-md-8 col-sm-12">
                         <div className="container myContainer myContainerIndex">
                             <div className="col-lg-12 col-md-12 col-sm-12">
-                                <h1 className="webText">Mixer Upper Website</h1>
+                         
                             </div>
 
                             <div className="row myRow-2">
@@ -268,12 +281,19 @@ function Web() {
                 </div>
             </div>
 
+             <div className="card">
+                <div className="card-header">
+                    WEATHER WEBSITE
+        </div>
+
+            </div>
+
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 col-md-8 col-sm-12">
                         <div className="container myContainer myContainerIndex">
                             <div className="col-lg-12 col-md-12 col-sm-12">
-                                <h1 className="webText">Weather Website</h1>
+                         
                             </div>
 
                             <div className="row myRow-2">
@@ -317,12 +337,19 @@ function Web() {
                 </div>
             </div>
 
+                    <div className="card">
+                <div className="card-header">
+                    CODING QUIZ
+        </div>
+
+            </div>
+
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 col-md-8 col-sm-12">
                         <div className="container myContainer myContainerIndex">
                             <div className="col-lg-12 col-md-12 col-sm-12">
-                                <h1 className="webText">Coding Quiz</h1>
+                         
                             </div>
 
                             <div className="row myRow-2">
@@ -366,13 +393,20 @@ function Web() {
                 </div>
             </div>
 
+                             <div className="card">
+                <div className="card-header">
+                    DAY PLANNER WEBSITE
+        </div>
+
+            </div>
+
 
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 col-md-8 col-sm-12">
                         <div className="container myContainer myContainerIndex">
                             <div className="col-lg-12 col-md-12 col-sm-12">
-                                <h1 className="webText">Day Planner Website</h1>
+                          
                             </div>
 
                             <div className="row myRow-2">
