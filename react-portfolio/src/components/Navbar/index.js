@@ -17,11 +17,17 @@ function Mynavbar() {
        <Nav.Link href="/home">Home</Nav.Link>
        <Nav.Link href="/">Web</Nav.Link>
        <NavDropdown title="Films" id="basic-nav-dropdown" class="collapse navbar-collapse justify-content-center order-2">
-         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-         <NavDropdown.Divider />
-         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+         <NavDropdown.Item href="egg">The Egg</NavDropdown.Item>
+        <NavDropdown.Item href="front">Frontbum Dancin'</NavDropdown.Item>
+        <NavDropdown.Item href="holding">Holding Hands</NavDropdown.Item>
+         <NavDropdown.Item href="lovebytes">Love Bytes</NavDropdown.Item>
+          <NavDropdown.Item href="milk">Milk & Vodka</NavDropdown.Item>
+           <NavDropdown.Item href="romp">Romp the Web Series</NavDropdown.Item>
+            <NavDropdown.Item href="slut">Slut - The Musical</NavDropdown.Item>
+             <NavDropdown.Item href="tina">Tina Sol</NavDropdown.Item>
+              <NavDropdown.Item href="vicious">The Vicious & the Delicious</NavDropdown.Item>
+               <NavDropdown.Item href="wally">Wally</NavDropdown.Item>
+                <NavDropdown.Item href="why">Why Me?</NavDropdown.Item>
        </NavDropdown>
        <Nav.Link href="/screenings">Screenings</Nav.Link>
        <Nav.Link href="/awards">Awards</Nav.Link>
