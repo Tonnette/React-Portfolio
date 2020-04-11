@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Burger",
+    "image":
+      "./Burger.png",
+    "alt": "screenshot of Burger App",
+    "description": 
+    " This app allows the user to name all the burgers they want to eat. They can then choose to devour which every burger they want. After they devour their burger, they can then choose to delete the item. This burger app was built using MySQL, Node, Express, Handlebars and ORM.",
+    "url": "https://peaceful-savannah-89179.herokuapp.com/",
+    "github": "https://github.com/Tonnette/burger-project"
+  },
+    {
+    "id": 2,
+    "name": "Burger",
+    "image":
+      "./Burger.png",
+    "alt": "screenshot of Burger App",
+    "description": 
+    " This app allows the user to name all the burgers they want to eat. They can then choose to devour which every burger they want. After they devour their burger, they can then choose to delete the item. This burger app was built using MySQL, Node, Express, Handlebars and ORM.",
+    "url": "https://peaceful-savannah-89179.herokuapp.com/",
+    "github": "https://github.com/Tonnette/burger-project"
+  }
+  
+
+]

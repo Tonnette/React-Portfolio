@@ -40,7 +40,7 @@ function Tina() {
         </div>
     </div>
  </div>
-      );
+);
 }
 
 export default Tina;

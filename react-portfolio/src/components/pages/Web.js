@@ -10,6 +10,8 @@ import Cocktail from '../Cocktail';
 import Weather from '../Weather';
 import Quiz from '../Quiz';
 import Planner from '../Planner';
+import WebCards from '../WebCards';
+import projects from "./projects.json";
 
 function Web() {
     return (
@@ -30,17 +32,73 @@ function Web() {
         <h1 className="webText">CODING PROJECTS</h1>
         <br></br>
             
-        <MovieReview />
+        <WebCards 
 
-        <Burger />
+         name={projects[0].name}
+        image={projects[0].image}
+        alt={projects[0].alt}
+        description={projects[0].description}
+        url={projects[0].url}
+        github={projects[0].github}
 
-        <Cocktail />
+        / >
+    <WebCards 
+         name={projects[1].name}
+        image={projects[1].image}
+        alt={projects[1].alt}
+        description={projects[1].description}
+        url={projects[1].url}
+        github={projects[1].github}
 
-        <Weather />
+/ >
+    <WebCards 
+            name={projects[1].name}
+        image={projects[1].image}
+        alt={projects[1].alt}
+        description={projects[1].description}
+        url={projects[1].url}
+        github={projects[1].github}
 
-        <Quiz />
+        / >
 
-        <Planner />
+            <WebCards 
+
+            name={projects[1].name}
+        image={projects[1].image}
+        alt={projects[1].alt}
+        description={projects[1].description}
+        url={projects[1].url}
+        github={projects[1].github}
+
+        / >
+
+
+            <WebCards 
+
+            name={projects[1].name}
+        image={projects[1].image}
+        alt={projects[1].alt}
+        description={projects[1].description}
+        url={projects[1].url}
+        github={projects[1].github}
+
+        / >
+
+        <WebCards
+
+            name={projects[1].name}
+        image={projects[1].image}
+        alt={projects[1].alt}
+        description={projects[1].description}
+        url={projects[1].url}
+        github={projects[1].github}
+
+    
+       
+        
+         />
+
+       
 
     </div>
 </div>
