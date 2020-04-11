@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Romp",
     "image": "./romp-thumb.jpg",
-    "whichCard": "rompCard",
+    "whichCard": "card rompCard",
     "alt": "catwalk pose",
     "url": "/romp",
     "theClass": "middle1",
@@ -38,7 +38,7 @@
     "image": "./lovebytes-thumb.jpg",
     "whichCard": "loveCard",
     "alt": "man on computer",
-    "url": "/love",
+    "url": "/lovebytes",
     "theClass": "middle4",
     "classy": "loveBytes",
     "description": "Love Bytes | Web Series"

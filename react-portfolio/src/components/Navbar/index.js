@@ -27,7 +27,7 @@ function Mynavbar() {
              <NavDropdown.Item href="tina">Tina Sol</NavDropdown.Item>
               <NavDropdown.Item href="vicious">The Vicious & the Delicious</NavDropdown.Item>
                <NavDropdown.Item href="wally">Wally</NavDropdown.Item>
-                <NavDropdown.Item href="why">Why Me?</NavDropdown.Item>
+                <NavDropdown.Item href="whyme">Why Me?</NavDropdown.Item>
        </NavDropdown>
        <Nav.Link href="/screenings">Screenings</Nav.Link>
        <Nav.Link href="/awards">Awards</Nav.Link>
