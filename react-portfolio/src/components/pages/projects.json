@@ -1,7 +1,17 @@
 [
   {
     "id": 1,
-    "name": "Burger",
+    "name": "Movie App",
+    "image": "./movies.jpg",
+    "alt": "screenshot of Movie Review Website",
+    "description": 
+    "This is a movie review website where users can look up any movie and see reviews. This could help them decide to watch a movie or not. Secondly, users can register as a member and this allows them to also add their own reviews. They can also go into their profile page and delete any of their reviews that they are not happy with.",
+    "url": "https://lit-peak-86961.herokuapp.com/",
+    "github": "https://github.com/Tonnette/Project2"
+  },
+    {
+    "id": 2,
+    "name": "Burger App",
     "image":
       "./Burger.png",
     "alt": "screenshot of Burger App",
@@ -10,16 +20,50 @@
     "url": "https://peaceful-savannah-89179.herokuapp.com/",
     "github": "https://github.com/Tonnette/burger-project"
   },
-    {
-    "id": 2,
-    "name": "Burger",
+     {
+    "id": 3,
+    "name": "Cocktail App",
     "image":
-      "./Burger.png",
-    "alt": "screenshot of Burger App",
+      "./mixer.jpg",
+    "alt": "screenshot of Cocktail App",
     "description": 
-    " This app allows the user to name all the burgers they want to eat. They can then choose to devour which every burger they want. After they devour their burger, they can then choose to delete the item. This burger app was built using MySQL, Node, Express, Handlebars and ORM.",
-    "url": "https://peaceful-savannah-89179.herokuapp.com/",
-    "github": "https://github.com/Tonnette/burger-project"
+    "This dynamic webpage provides an easy way to discover and create cocktails through searching by name or by ingredient. The user receives an image of the cocktail, a list of ingredients and instructions on how to prepare it. The user can post to Twitter or Facebook, and can open Google Maps and find their closest cocktail bar. Materialize, Javascript, Jquery and the Cocktail Database API (thecocktaildb.com) were used.",
+    "url": "https://jeqp.github.io/mixer-upper/index.html",
+    "github": "https://github.com/JEQP/mixer-upper/"
+  },
+
+     {
+    "id": 4,
+    "name": "Weather",
+    "image":
+      "./weather.jpg",
+    "alt": "screenshot of weather website",
+    "description": 
+    "The user can find the weather of various cities around the world getting a 5 day forecast. This was built using an AJAX call to retriev data. It dynamically updates HTML and CSS by storing user data in local storage.It includes a search history so that users can access their past search terms. Clicking on the city name will perform a new search that returns current and future conditions for that city. This app displays: the city, the date, the weather icon, temp, humidity, wind speed, and the UV Index",
+    "url": "https://tonnette.github.io/",
+    "github": "https://github.com/Tonnette/tonnette.github.io"
+  },
+       {
+    "id": 5,
+    "name": "Coding Quiz",
+    "image":
+      "./quiz.jpg",
+    "alt": "screenshot of Coding Quiz App",
+    "description": 
+    "The quiz will log how many questions the user got correct. The user will be rewarded if they answer the questions quickly. For any wrong answer there is a time penalty. At the end of the quiz the users score is calculated by the time left of the timer. The user can then log their score in the high scores section. The user also has the ability to clear all high scores. This website was built using bootstrap, html, CSS, JavaScript and a bit of Jquery.",
+    "url": "https://tonnette.github.io/quiz/",
+    "github": "https://github.com/Tonnette/quiz"
+  },
+       {
+    "id": 6,
+    "name": "Day Planner",
+    "image":
+      "./schedule.jpg",
+    "alt": "screenshot of Day Planner App",
+    "description": "This app displays the current date / time and allows the user to save items for each hour of the d,ay (between 9-5pm). This info will save in local storage. Each hour is colour coded to reflect the time slot (the past, present or future). The colours change depending on the time of day. This site was built using bootstrap, html, CSS, JavaScript, JQuery and Moment.js",
+    
+    "url": "https://tonnette.github.io/day-planner/",
+    "github": "https://github.com/Tonnette/day-planner"
   }
   
 

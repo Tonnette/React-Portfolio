@@ -52,46 +52,46 @@ function Web() {
 
 / >
     <WebCards 
-            name={projects[1].name}
-        image={projects[1].image}
-        alt={projects[1].alt}
-        description={projects[1].description}
-        url={projects[1].url}
-        github={projects[1].github}
+            name={projects[2].name}
+        image={projects[2].image}
+        alt={projects[2].alt}
+        description={projects[2].description}
+        url={projects[2].url}
+        github={projects[2].github}
 
         / >
 
             <WebCards 
 
-            name={projects[1].name}
-        image={projects[1].image}
-        alt={projects[1].alt}
-        description={projects[1].description}
-        url={projects[1].url}
-        github={projects[1].github}
+            name={projects[3].name}
+        image={projects[3].image}
+        alt={projects[3].alt}
+        description={projects[3].description}
+        url={projects[3].url}
+        github={projects[3].github}
 
         / >
 
 
             <WebCards 
 
-            name={projects[1].name}
-        image={projects[1].image}
-        alt={projects[1].alt}
-        description={projects[1].description}
-        url={projects[1].url}
-        github={projects[1].github}
+            name={projects[4].name}
+        image={projects[4].image}
+        alt={projects[4].alt}
+        description={projects[4].description}
+        url={projects[4].url}
+        github={projects[4].github}
 
         / >
 
         <WebCards
 
-            name={projects[1].name}
-        image={projects[1].image}
-        alt={projects[1].alt}
-        description={projects[1].description}
-        url={projects[1].url}
-        github={projects[1].github}
+            name={projects[5].name}
+        image={projects[5].image}
+        alt={projects[5].alt}
+        description={projects[5].description}
+        url={projects[5].url}
+        github={projects[5].github}
 
     
        

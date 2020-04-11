@@ -18,7 +18,7 @@ function WebCards(props) {
                                 <div className="col-lg-12 col-md-12 col-sm-12">
                                     <p className="myText">
                                         <a href={props.url} target="_blank">
-                                            <img className="float-left mr-2 mb-1 myImage" src={require("./pages/Burger.png")}
+                                            <img className="float-left mr-2 mb-1 myImage" src={props.image}
                                                 alt={props.alt} />
                                                
 
