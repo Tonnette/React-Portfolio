@@ -1,17 +1,18 @@
 import React from "react";
 import "./assets/css/style.css"
+import movies from "./pages/movies.json";
 
 
-function HomeMovies() {
+function HomeMovies(props) {
     return (
 <div className="container-fluid myContainer ">
         <div className="row firstRow row-centered">
             <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-centered">
                 <div className="card rompCard">
-                    <a href="/romp">
-                        <img src={require("./assets/images/thumbnails/romp-thumb.jpg")} className="card-img-top thumbnail romp" alt="catwallk pose" />
-                        <div className="middle1">
-                            <div className="text1">Romp | Web Series</div>
+                    <a href={props.url}>
+                        <img src={props.image} className="card-img-top thumbnail {props.classy}" alt="{props.alt}" />
+                        <div className={props.theClass}>
+                            <div className="text1">{props.description}</div>
                         </div>
                     </a>
                 </div>

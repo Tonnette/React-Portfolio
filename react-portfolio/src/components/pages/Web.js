@@ -4,12 +4,6 @@ import "../assets/css/style.css"
 import Carousel from 'react-bootstrap/Carousel';
 import CodeCarousel from '../Carousel/CodeCarousel';
 import WebBio from '../WebBio';
-import MovieReview from '../MovieReview';
-import Burger from '../Burger';
-import Cocktail from '../Cocktail';
-import Weather from '../Weather';
-import Quiz from '../Quiz';
-import Planner from '../Planner';
 import WebCards from '../WebCards';
 import projects from "./projects.json";
 

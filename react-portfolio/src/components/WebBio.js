@@ -28,7 +28,7 @@ function WebBio() {
                                 Heroku. She has used numerous NPM packages in her projects including Express.js, Sequalize, Handlebars, Passport, Bcryptjs and Path
 
 
-                                <br />
+                               
                                 She has worked on numerous web
                                 projects including front-end websites, back-end and full-stack apps. Some of her project include a movie review app (group project), a
                                 burger app, a cocktail-making website (group project), a weather

@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "name": "Romp",
+    "image": "./romp-thumb.jpg",
+    "whichCard": "rompCard",
+    "alt": "catwalk pose",
+    "url": "/romp",
+    "theClass": "middle1",
+    "classy": "romp",
+    "description": "Romp | Web Series"
+  },
+   {
+    "id": 2,
+    "name": "The Egg",
+    "image": "./egg-thumb.jpg",
+    "whichCard": "eggCard",
+    "alt": "animated penguins",
+    "url": "/egg",
+    "theClass": "middle2",
+    "classy": "theEgg",
+    "description": "The Egg | Short Animation"
+  },
+ {
+    "id": 3,
+    "name": "Milk & Vodka",
+    "image": "./milk-thumb.jpg",
+    "whichCard": "milkCard",
+    "alt": "women looking out at water",
+    "url": "/milk",
+    "theClass": "middle3",
+    "classy": "milk",
+    "description": "Milk & Vodka | Short Drama"
+  },
+ {
+    "id": 4,
+    "name": "Love Bytes",
+    "image": "./lovebytes-thumb.jpg",
+    "whichCard": "loveCard",
+    "alt": "man on computer",
+    "url": "/love",
+    "theClass": "middle4",
+    "classy": "loveBytes",
+    "description": "Love Bytes | Web Series"
+  },
+ {
+    "id": 5,
+    "name": "Slut - The Musical",
+    "image": "./slut-thumb.jpg",
+    "whichCard": "slutCard",
+    "alt": "prefects strut",
+    "url": "/slut",
+    "theClass": "middle5",
+    "classy": "slut",
+    "description": "Slut The Musical | Short Film"
+  },
+ {
+    "id": 6,
+    "name": "Wally",
+    "image": "./wally-thumb.jpg",
+    "whichCard": "wallyCard",
+    "alt": "girl eating cake",
+    "url": "/wally",
+    "theClass": "middle6",
+    "classy": "wally",
+    "description": "Wally | Short Film"
+  },
+ {
+    "id": 7,
+    "name": "The Vicious & the Delicious",
+    "image": "./vicious.jpg",
+    "whichCard": "viciousCard",
+    "alt": "soap opera",
+    "url": "/vicious",
+    "theClass": "middle7",
+    "classy": "vivious",
+    "description": "The Vicious & the Delicious |  Short Comedy"
+  },
+ {
+    "id": 8,
+    "name": "Holding Hands",
+    "image": "./holding-thumb.jpg",
+    "whichCard": "holdingCard",
+    "alt": "holding hands poster",
+    "url": "/holding",
+    "theClass": "middle8",
+    "classy": "holding",
+    "description": "Holding Hands | Feature Doco"
+  },
+ {
+    "id": 9,
+    "name": "Why Me",
+    "image": "./Whyme-thumb.jpg",
+    "whichCard": "whyCard",
+    "alt": "family pose",
+    "url": "/whyme",
+    "theClass": "middle9",
+    "classy": "why",
+    "description": "Why Me | Short Comedy"
+  }
+
+
+  
+
+]

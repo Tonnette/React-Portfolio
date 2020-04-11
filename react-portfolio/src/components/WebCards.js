@@ -1,5 +1,6 @@
 import React from "react";
 import "./assets/css/style.css"
+import projects from "./pages/projects.json";
 
 
 
@@ -13,10 +14,12 @@ function WebCards(props) {
     </div>
                 <div className="row">
                     <div className="col-lg-8 col-md-8 col-sm-12">
-                        <div className="container myContainer myContainerIndex">
-                            <div className="row myRow-2">
-                                <div className="col-lg-12 col-md-12 col-sm-12">
+                        
                                     <p className="myText">
+
+  
+
+
                                         <a href={props.url} target="_blank">
                                             <img className="float-left mr-2 mb-1 myImage" src={props.image}
                                                 alt={props.alt} />
@@ -35,9 +38,7 @@ function WebCards(props) {
                             </div>
 
                                 </div>
-                            </div>
-                        </div>
-                    </div>
+                 
                 </div>
           
 
