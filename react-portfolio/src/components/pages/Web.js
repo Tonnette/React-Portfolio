@@ -26,8 +26,14 @@ function Web() {
         <h1 className="webText">CODING PROJECTS</h1>
         <br></br>
 
-        
-            
+    <ul className="list-group">
+      {projects.map(item => (
+        <li className="list-group-item" key={item.id}>
+          {item.name}
+        </li>
+      ))}
+    </ul>
+
         <WebCards 
 
          name={projects[0].name}
