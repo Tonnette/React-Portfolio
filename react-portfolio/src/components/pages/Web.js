@@ -26,15 +26,9 @@ function Web() {
         <h1 className="webText">CODING PROJECTS</h1>
         <br></br>
 
-    <ul className="list-group">
-      {projects.map(item => (
-        <li className="list-group-item" key={item.id}>
-          {item.name}
-        </li>
-      ))}
-    </ul>
+ 
 
-        <WebCards 
+    <WebCards 
 
          name={projects[0].name}
         image={projects[0].image}
@@ -100,6 +94,10 @@ function Web() {
         
          />
 
+   
+
+        
+
        
 
     </div>
@@ -108,3 +106,15 @@ function Web() {
 }
 
 export default Web;
+
+   // <ul className="list-group">
+   //    {projects.map(item => (
+   //      <li className="list-group-item" key={item.id}>
+   //        {item.name}
+   //        {item.image}
+   //        {item.alt}
+   //        {item.description}
+   //        {item.url}
+   //      </li>
+   //    ))}
+   //  </ul>
