@@ -9,7 +9,7 @@ function MovieCarousel() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-     src={require("../assets/images/milk.jpg")} className="d-block w-100" 
+     src={require("../assets/images/milk.jpg")} 
      alt="girls sitting on jetty" />
     
     <Carousel.Caption>
@@ -21,7 +21,7 @@ function MovieCarousel() {
     <Carousel.Item>
     <img
       className="d-block w-100"
-     src={require("../assets/images/cape.jpg")} className="d-block w-100" 
+     src={require("../assets/images/cape.jpg")} 
      alt="man in a cape" />
     
     <Carousel.Caption>
@@ -33,7 +33,7 @@ function MovieCarousel() {
     <Carousel.Item>
     <img
       className="d-block w-100"
-     src={require("../assets/images/egg-night.jpg")} className="d-block w-100" 
+     src={require("../assets/images/egg-night.jpg")}
      alt="animated penguin in snow" />
     
     <Carousel.Caption>
@@ -47,7 +47,7 @@ function MovieCarousel() {
     <Carousel.Item>
     <img
       className="d-block w-100"
-     src={require("../assets/images/mayo.jpg")} className="d-block w-100" 
+     src={require("../assets/images/mayo.jpg")}
      alt="man in bed with mayo on his face" />
     
     <Carousel.Caption>
@@ -59,7 +59,7 @@ function MovieCarousel() {
    <Carousel.Item>
     <img
       className="d-block w-100"
-     src={require("../assets/images/vicious.jpg")} className="d-block w-100" 
+     src={require("../assets/images/vicious.jpg")} 
      alt="Nurses" />
     
     <Carousel.Caption>
@@ -71,7 +71,7 @@ function MovieCarousel() {
    <Carousel.Item>
     <img
       className="d-block w-100"
-     src={require("../assets/images/whyme.jpg")} className="d-block w-100" 
+     src={require("../assets/images/whyme.jpg")}
      alt="family sing on stage" />
     
     <Carousel.Caption>

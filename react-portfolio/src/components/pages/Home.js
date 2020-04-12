@@ -12,7 +12,7 @@ function Home() {
 
 			<div className="container">
 				{movies.map(item => (
-					<div className="col-sm-12 col-md-4 col-lg-4 col-centered">
+					<div className="col-sm-12 col-md-4 col-lg-4 col-centered" key={item.id}>
 						<br></br>
 						<div className={item.whichCard}>
 							<a href={item.url}>

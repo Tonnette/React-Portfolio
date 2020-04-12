@@ -10,7 +10,7 @@ function Mynavbar() {
 <Navbar expand="lg sticky-top" style={{backgroundColor:"#00c0d1"}}>
  <Navbar.Toggle aria-controls="basic-navbar-nav"   />
     <Navbar.Collapse id="basic-navbar-nav" >
-     <Nav className="mr-auto" className="centredNav" >
+     <Nav className="mr-auto centredNav" >
        <Nav.Link href="/home">Home</Nav.Link>
        <Nav.Link href="/">Web</Nav.Link>
        <NavDropdown title="Films" id="basic-nav-dropdown" class="collapse navbar-collapse justify-content-center order-2">
