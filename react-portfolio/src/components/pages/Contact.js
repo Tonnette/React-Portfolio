@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../assets/css/style.css"
 import pdf from '../assets/TonCV.pdf'
 
