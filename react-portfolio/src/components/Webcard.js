@@ -1,32 +1,12 @@
 import React from "react";
-import "../assets/css/style.css"
-import CodeCarousel from '../Carousel/CodeCarousel';
-import WebBio from '../WebBio';
-import Webcard from '../Webcard';
-import projects from "./projects.json";
+import projects from "./pages/projects.json";
 
-function Web() {
-    return (
-        <div className="container">
-            <div className="card">
-                <div className="card-header">
-                    CODING PROJECTS CAROUSEL
-                </div>
-
-            </div>
-
-            <div className="container">
-
-                <CodeCarousel />
-
-                <WebBio />
-
-                <h1 className="webText">CODING PROJECTS</h1>
-                <br></br>
-
-                <div className="container">
+// Whenever we try to render an array containing JSX, React knows to render each JSX element separately
+function Webcard(props) {
+  return (
+    <div className="container">
                     <br></br>
-                    {projects.map(item => (
+                    {props.projects.map(item => (
                         <div className="card" key={item.id}>
 
                             <div className="card-header">
@@ -55,19 +35,7 @@ function Web() {
 
                     ))}
                 </div>
-
-
-
-
-
-
-
-
-
-
-            </div>
-        </div>
-    );
+  );
 }
 
-export default Web;
+export default Webcard;
