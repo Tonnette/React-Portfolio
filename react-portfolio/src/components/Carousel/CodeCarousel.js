@@ -10,7 +10,7 @@ function CodeCarousel() {
         <Carousel>
             <Carousel.Item>
     <img
-      className="d-block w-90"
+      className="d-block w-80"
      src={require("../assets/images/carousel/mixer.jpg")} className="d-block w-100" 
      alt="girls sitting on jetty" />
     
@@ -19,7 +19,7 @@ function CodeCarousel() {
 
     <Carousel.Item>
     <img
-      className="d-block w-90"
+      className="d-block w-80"
      src={require("../assets/images/carousel/movies.jpg")} className="d-block w-100" 
      alt="man in a cape" />
     
@@ -28,7 +28,7 @@ function CodeCarousel() {
 
     <Carousel.Item>
     <img
-      className="d-block w-90"
+      className="d-block w-80"
      src={require("../assets/images/carousel/quiz.jpg")} className="d-block w-100" 
      alt="animated penguin in snow" />
     
@@ -39,7 +39,7 @@ function CodeCarousel() {
 
     <Carousel.Item>
     <img
-      className="d-block w-90"
+      className="d-block w-80"
      src={require("../assets/images/carousel/schedule.jpg")} className="d-block w-100" 
      alt="man in bed with mayo on his face" />
  
@@ -47,7 +47,7 @@ function CodeCarousel() {
 
    <Carousel.Item>
     <img
-      className="d-block w-90"
+      className="d-block w-80"
      src={require("../assets/images/carousel/weather.jpg")} className="d-block w-100" 
      alt="Nurses" />
     

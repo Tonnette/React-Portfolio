@@ -1,15 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../assets/css/style.css"
-import Carousel from 'react-bootstrap/Carousel';
 import CodeCarousel from '../Carousel/CodeCarousel';
 import WebBio from '../WebBio';
-import WebCards from '../WebCards';
 import projects from "./projects.json";
 
 function Web() {
     return (
-  <div className="container">
+        <div className="container">
             <div className="card">
                 <div className="card-header">
                     CODING PROJECTS CAROUSEL
@@ -17,92 +14,59 @@ function Web() {
 
             </div>
 
-    <div className="container">
-    
-        <CodeCarousel />
+            <div className="container">
 
-        <WebBio />
+                <CodeCarousel />
 
-        <h1 className="webText">CODING PROJECTS</h1>
-        <br></br>
+                <WebBio />
 
- 
+                <h1 className="webText">CODING PROJECTS</h1>
+                <br></br>
 
-    <WebCards 
+                <div className="container">
+                <br></br>
+                    {projects.map(item => (
+                        <div className="card">
+                          
+                            <div className="card-header">
+                                {item.name}
+                            </div>
+                            <br></br>
+                           
+                                <div className="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-12">
+                                    <p className="myText">
+                                        <a href={item.url} target="_blank">
+                                            <img className="float-left mr-2 mb-1 myImage" src={item.image}
+                                                alt={item.alt} />
+                                        </a>
+                                        {item.description}
+                                    </p>
+                                    <div className="profileButton">
+                                        <a href={item.url} target="_blank"
+                                            className="btn btn-outline-info">{item.name} App</a> &nbsp;
+                                        <a href={item.github} target="_blank"
+                                            className="btn btn-outline-info">Github Repo</a> &nbsp;
+                                    </div>
+                                </div>
+                         
+                            <br></br>
+                        </div>
 
-         name={projects[0].name}
-        image={projects[0].image}
-        alt={projects[0].alt}
-        description={projects[0].description}
-        url={projects[0].url}
-        github={projects[0].github}
-
-        / >
-    <WebCards 
-         name={projects[1].name}
-        image={projects[1].image}
-        alt={projects[1].alt}
-        description={projects[1].description}
-        url={projects[1].url}
-        github={projects[1].github}
-
-/ >
-    <WebCards 
-            name={projects[2].name}
-        image={projects[2].image}
-        alt={projects[2].alt}
-        description={projects[2].description}
-        url={projects[2].url}
-        github={projects[2].github}
-
-        / >
-
-            <WebCards 
-
-            name={projects[3].name}
-        image={projects[3].image}
-        alt={projects[3].alt}
-        description={projects[3].description}
-        url={projects[3].url}
-        github={projects[3].github}
-
-        / >
+                    ))}
+                </div>
 
 
-            <WebCards 
 
-            name={projects[4].name}
-        image={projects[4].image}
-        alt={projects[4].alt}
-        description={projects[4].description}
-        url={projects[4].url}
-        github={projects[4].github}
 
-        / >
 
-        <WebCards
 
-            name={projects[5].name}
-        image={projects[5].image}
-        alt={projects[5].alt}
-        description={projects[5].description}
-        url={projects[5].url}
-        github={projects[5].github}
 
-    
-       
-        
-         />
 
-   
 
-        
 
-       
-
-    </div>
-</div>
-);
+            </div>
+        </div>
+    );
 }
 
 export default Web;
