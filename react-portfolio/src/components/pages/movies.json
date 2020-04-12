@@ -8,7 +8,7 @@
     "url": "/romp",
     "theClass": "middle1",
     "classy": "romp",
-    "description": "Romp | Web Series"
+    "description": "Romp, Web Series"
   },
    {
     "id": 2,
@@ -19,7 +19,7 @@
     "url": "/egg",
     "theClass": "middle2",
     "classy": "theEgg",
-    "description": "The Egg | Short Animation"
+    "description": "The Egg, Short Animation"
   },
  {
     "id": 3,
@@ -30,7 +30,7 @@
     "url": "/milk",
     "theClass": "middle3",
     "classy": "milk",
-    "description": "Milk & Vodka | Short Drama"
+    "description": "Milk & Vodka, Short Drama"
   },
  {
     "id": 4,
@@ -41,7 +41,7 @@
     "url": "/lovebytes",
     "theClass": "middle4",
     "classy": "loveBytes",
-    "description": "Love Bytes | Web Series"
+    "description": "Love Bytes, Web Series"
   },
  {
     "id": 5,
@@ -52,7 +52,7 @@
     "url": "/slut",
     "theClass": "middle5",
     "classy": "slut",
-    "description": "Slut The Musical | Short Film"
+    "description": "Slut The Musical, Short Film"
   },
  {
     "id": 6,
@@ -63,7 +63,7 @@
     "url": "/wally",
     "theClass": "middle6",
     "classy": "wally",
-    "description": "Wally | Short Film"
+    "description": "Wally, Short Film"
   },
  {
     "id": 7,
@@ -74,7 +74,7 @@
     "url": "/vicious",
     "theClass": "middle7",
     "classy": "vivious",
-    "description": "The Vicious & the Delicious |  Short Comedy"
+    "description": "The Vicious & the Delicious,  Short Comedy"
   },
  {
     "id": 8,
@@ -85,7 +85,7 @@
     "url": "/holding",
     "theClass": "middle8",
     "classy": "holding",
-    "description": "Holding Hands | Feature Doco"
+    "description": "Holding Hands, Feature Doco"
   },
  {
     "id": 9,
@@ -96,7 +96,7 @@
     "url": "/whyme",
     "theClass": "middle9",
     "classy": "why",
-    "description": "Why Me | Short Comedy"
+    "description": "Why Me, Short Comedy"
   }
 
 

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../assets/css/style.css"
 import Carousel from 'react-bootstrap/Carousel';
 

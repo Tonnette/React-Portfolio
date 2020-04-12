@@ -6,9 +6,7 @@
                             .selector-for-some-widget {
                                 box-sizing: content-box;
                             }
-                            .card {
-                                text-align: center;
-                            }
+                       
 
                             .myName {
                                 text-align: center;
@@ -162,8 +160,8 @@
                             }
 
                             .myText {
-                                margin-left: 15px;
-                                text-align: center;
+                                margin-left: 25px;
+                                text-align: left;
                             }
 
                             .egg {
@@ -254,7 +252,7 @@
                                     width: 55%;
                                 }
                                 .profileButton {
-                                    text-align: left;
+                                    text-align: center;
                                     padding-bottom: 10px;
                                 }
                                 .profileButtonFilms {
