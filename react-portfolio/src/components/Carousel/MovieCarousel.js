@@ -5,82 +5,82 @@ import Carousel from 'react-bootstrap/Carousel';
 function MovieCarousel() {
   return (
     <div className="container">
-<Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-     src={require("../assets/images/milk.jpg")} 
-     alt="girls sitting on jetty" />
-    
-    <Carousel.Caption>
-      <h3>Milk and Vodka</h3>
-      <p>Short Film &nbsp; | &nbsp;24mins &nbsp; | &nbsp;2013</p>
-    </Carousel.Caption>
-  </Carousel.Item>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={require("../assets/images/milk.jpg")}
+            alt="girls sitting on jetty" />
 
-    <Carousel.Item>
-    <img
-      className="d-block w-100"
-     src={require("../assets/images/cape.jpg")} 
-     alt="man in a cape" />
-    
-    <Carousel.Caption>
-      <h3>Slut - the Musical</h3>
-      <p>Short Musical &nbsp; | &nbsp;16mins &nbsp; | &nbsp;2010</p>
-    </Carousel.Caption>
-  </Carousel.Item>
+          <Carousel.Caption>
+            <h3>Milk and Vodka</h3>
+            <p>Short Film &nbsp; | &nbsp;24mins &nbsp; | &nbsp;2013</p>
+          </Carousel.Caption>
+        </Carousel.Item>
 
-    <Carousel.Item>
-    <img
-      className="d-block w-100"
-     src={require("../assets/images/egg-night.jpg")}
-     alt="animated penguin in snow" />
-    
-    <Carousel.Caption>
-      <h3 >The Egg</h3>
-      <p>Short | &nbsp;10mins &nbsp; | &nbsp;2013</p>
-    </Carousel.Caption>
-  </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={require("../assets/images/cape.jpg")}
+            alt="man in a cape" />
 
-    
+          <Carousel.Caption>
+            <h3>Slut - the Musical</h3>
+            <p>Short Musical &nbsp; | &nbsp;16mins &nbsp; | &nbsp;2010</p>
+          </Carousel.Caption>
+        </Carousel.Item>
 
-    <Carousel.Item>
-    <img
-      className="d-block w-100"
-     src={require("../assets/images/mayo.jpg")}
-     alt="man in bed with mayo on his face" />
-    
-    <Carousel.Caption>
-      <h3>Romp</h3>
-      <p>Web Series &nbsp; | &nbsp;6 x 12min eps &nbsp; | &nbsp;Coming Soon!</p>
-    </Carousel.Caption>
-  </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={require("../assets/images/egg-night.jpg")}
+            alt="animated penguin in snow" />
 
-   <Carousel.Item>
-    <img
-      className="d-block w-100"
-     src={require("../assets/images/vicious.jpg")} 
-     alt="Nurses" />
-    
-    <Carousel.Caption>
-      <h3>The Vicious and the Delicious</h3>
-      <p>Short Film &nbsp; | &nbsp;12mins &nbsp; | &nbsp;2013</p>
-    </Carousel.Caption>
-  </Carousel.Item>
+          <Carousel.Caption>
+            <h3 >The Egg</h3>
+            <p>Short | &nbsp;10mins &nbsp; | &nbsp;2013</p>
+          </Carousel.Caption>
+        </Carousel.Item>
 
-   <Carousel.Item>
-    <img
-      className="d-block w-100"
-     src={require("../assets/images/whyme.jpg")}
-     alt="family sing on stage" />
-    
-    <Carousel.Caption>
-      <h3>Why Me?</h3>
-      <p>Short Film &nbsp; | &nbsp;22mins &nbsp; | &nbsp;2010</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
-</div>
+
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={require("../assets/images/mayo.jpg")}
+            alt="man in bed with mayo on his face" />
+
+          <Carousel.Caption>
+            <h3>Romp</h3>
+            <p>Web Series &nbsp; | &nbsp;6 x 12min eps &nbsp; | &nbsp;Coming Soon!</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={require("../assets/images/vicious.jpg")}
+            alt="Nurses" />
+
+          <Carousel.Caption>
+            <h3>The Vicious and the Delicious</h3>
+            <p>Short Film &nbsp; | &nbsp;12mins &nbsp; | &nbsp;2013</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={require("../assets/images/whyme.jpg")}
+            alt="family sing on stage" />
+
+          <Carousel.Caption>
+            <h3>Why Me?</h3>
+            <p>Short Film &nbsp; | &nbsp;22mins &nbsp; | &nbsp;2010</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
 
 
   );

@@ -1,27 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 
 function Toncard() {
-  return (
- <div className="container">
+    return (
+        <div className="container">
             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12">
                     <p className="myName">Tonnette Stanford</p>
                 </div>
             </div>
-
             <div className="row">
                 <div className="col-lg-5 col-md-5 col-md-offset-1 col-sm-5 col-xs-5 red">
-                    <Link
-                        to="/"
-                        className={
-                            window.location.pathname === "/" || window.location.pathname === "/"
-
-                        }
-                    >
+                    <a href="/">
                         WEB DEVELOPER
-            </Link>
+                    </a>
                 </div>
 
 
@@ -33,21 +26,15 @@ function Toncard() {
 
 
                 <div className="col-lg-4 col-md-5 col-sm-4 col-xs-5 blue">
-                    <Link
-                        to="/films"
-                        className={
-                            window.location.pathname === "/films" || window.location.pathname === "/films"
-
-                        }
-                    >
-                        WRITER/DIRECTOR
-            </Link>
+                    <a href="/films">
+                        WRITER / DIRECTOR
+                    </a>
                 </div>
 
 
             </div>
-             </div>
-  );
+        </div>
+    );
 }
 
 export default Toncard;

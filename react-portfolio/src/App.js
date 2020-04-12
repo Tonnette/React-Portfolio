@@ -26,30 +26,30 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
     return (
         <Router >
-        <div >
-        <Mynavbar / >
-        <Toncard / >
-        <Route exact path = "/" component = { Web }/> 
-        <Route exact path = "/home" component = { Home }/> 
-        <Route exact path = "/films" component = { Films }/> 
-        <Route exact path = "/screenings" component = { Screenings }/>
-        <Route exact path = "/awards" component = { Awards }/> 
-        <Route exact path = "/contact" component = { Contact }/>
-        < Route exact path = "/egg" component = { Egg }/> 
-        <Route exact path = "/front" component = { Front }/> 
-        <Route exact path = "/holding"component = { Holding }/> 
-        <Route exact path = "/lovebytes"component = { Lovebytes }/> 
-        <Route exact path = "/milk" component = { Milk }/> 
-        <Route exact path = "/romp" component = { Romp }/>
-        <Route exact path = "/slut" component = { Slut }/> 
-        <Route exact path = "/tina" component = { Tina }/> 
-        <Route exact path = "/vicious" component = { Vicious }/> 
-        <Route exact path = "/wally" component = { Wally }/> 
-        <Route exact path = "/whyme" component = { Why }/>
+            <div >
+                <Mynavbar />
+                <Toncard />
+                <Route exact path="/" component={Web} />
+                <Route exact path="/home" component={Home} />
+                <Route exact path="/films" component={Films} />
+                <Route exact path="/screenings" component={Screenings} />
+                <Route exact path="/awards" component={Awards} />
+                <Route exact path="/contact" component={Contact} />
+                < Route exact path="/egg" component={Egg} />
+                <Route exact path="/front" component={Front} />
+                <Route exact path="/holding" component={Holding} />
+                <Route exact path="/lovebytes" component={Lovebytes} />
+                <Route exact path="/milk" component={Milk} />
+                <Route exact path="/romp" component={Romp} />
+                <Route exact path="/slut" component={Slut} />
+                <Route exact path="/tina" component={Tina} />
+                <Route exact path="/vicious" component={Vicious} />
+                <Route exact path="/wally" component={Wally} />
+                <Route exact path="/whyme" component={Why} />
 
 
-        <Footer / >
-        </div> 
+                <Footer />
+            </div>
         </Router>
 
 
