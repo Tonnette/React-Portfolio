@@ -2,22 +2,22 @@ import React from "react";
 import "../assets/css/style.css"
 
 function Screenings() {
-  return (
+    return (
 
 
-<div className="card" style={{paddingTop: "50px"}}>
-        <div className="card-header">
-            FILM SCREENINGS
+        <div className="card" style={{ paddingTop: "50px" }}>
+            <div className="card-header">
+                FILM SCREENINGS
         </div>
 
-        <div className="container">
-            <div className="row" style={{paddingTop: "50px"}}>
-                <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
-                    <img src={require("../assets/images/egg-night.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>The Egg | 10min | Animation</strong>
-                            <br />* Darwin Pride, Australia 2015
+            <div className="container">
+                <div className="row" style={{ paddingTop: "50px" }}>
+                    <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/egg-night.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>The Egg | 10min | Animation</strong>
+                                <br />* Darwin Pride, Australia 2015
                             <br /> * MIX Mexico, Mexico 2015
                             <br /> * A Film Trust for Social Development, India 2015
                             <br /> * Sydney Fringe Festival, Australia 2014
@@ -35,15 +35,15 @@ function Screenings() {
                             <br /> * Melbourne International Queer Film Festival 2014
 
                         </p>
-                    </div>
+                        </div>
 
-                </div>
-                <div className="col-lg-4 col-md-12 col-sm-12">
-                    <img src={require("../assets/images/loveBytes.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>Love Bytes | 4 x 10min | Web Series</strong>
-                            <br /> * Over 9million views on YouTube
+                    </div>
+                    <div className="col-lg-4 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/loveBytes.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>Love Bytes | 4 x 10min | Web Series</strong>
+                                <br /> * Over 9million views on YouTube
                             <br />* Kashish Mumbai Film Festival, India 2015
                             <br />* MIX Mexico, Mexico 2015
                             <br />* Reel Desires, India 2014
@@ -57,24 +57,24 @@ function Screenings() {
                             <br />* Kashish Mumbai Film Festival, India 2014
                             <br />* Little Queer Film Festival, Melbourne 2014
                         </p>
+                        </div>
+
                     </div>
+
+
 
                 </div>
 
 
-
             </div>
-
-
-        </div>
-        <div className="container">
-            <div className="row" style={{paddingTop: "50px"}}>
-                <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
-                     <img src={require("../assets/images/milk.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>Milk and Vodka | 24min | Drama</strong>
-                            <br /> * MIX Mexico, Mexico 2015
+            <div className="container">
+                <div className="row" style={{ paddingTop: "50px" }}>
+                    <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/milk.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>Milk and Vodka | 24min | Drama</strong>
+                                <br /> * MIX Mexico, Mexico 2015
                             <br /> * Let them Eat Cake Festival, Italy 2014
                             <br /> * Long Island Gay and Lesbian Film Festival, USA 2014
                             <br /> * Rio Festival de Gay de Cinema, 2014
@@ -89,15 +89,15 @@ function Screenings() {
                             <br /> * Mardi Gras Film Festival, Sydney 2013
 
                         </p>
-                    </div>
+                        </div>
 
-                </div>
-                <div className="col-lg-4 col-md-12 col-sm-12">
-                     <img src={require("../assets/images/whyme.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>Why Me? | 22min | Comedy</strong>
-                            <br /> * Little Queer Film Festival, Melbourne 2013
+                    </div>
+                    <div className="col-lg-4 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/whyme.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>Why Me? | 22min | Comedy</strong>
+                                <br /> * Little Queer Film Festival, Melbourne 2013
                             <br /> * Bangalore Queer Film Festival, India 2012
                             <br /> * Melbourne Queer Film Festival, Australia 2012
                             <br /> * Mardi Gras Film Festival, Sydney 2012
@@ -105,24 +105,24 @@ function Screenings() {
                             <br /> * Frameline Film Festival, San Francisco 2011
                             <br /> * VCA Graduate Film Screenings, ACMI Melbourne 2010
                         </p>
+                        </div>
+
                     </div>
+
+
 
                 </div>
 
 
-
             </div>
-
-
-        </div>
-        <div className="container">
-            <div className="row" style={{paddingTop: "50px"}}>
-                <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
-                     <img src={require("../assets/images/cape.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>Slut - The Musical | 16min | Comedy</strong>
-                            <br /> * Boston LGBT Festival, USA 2012
+            <div className="container">
+                <div className="row" style={{ paddingTop: "50px" }}>
+                    <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/cape.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>Slut - The Musical | 16min | Comedy</strong>
+                                <br /> * Boston LGBT Festival, USA 2012
                             <br /> * Sydney Fringe Festival, Australia 2012
                             <br /> * Inside Out Film Festival, Canada 2012
                             <br /> * Kashish Mumbai LGBT Film Festival, India 2012
@@ -144,15 +144,15 @@ function Screenings() {
                             <br /> * Revelation – Perth International Film Festival, Australia 2010
 
                         </p>
-                    </div>
+                        </div>
 
-                </div>
-                <div className="col-lg-4 col-md-12 col-sm-12">
-                     <img src={require("../assets/images/thumbnails/holding-thumb.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>Holding Hands | 67min | Feature Doco</strong>
-                            <br /> * Cairns Queer Film Festival, Australia 2012
+                    </div>
+                    <div className="col-lg-4 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/thumbnails/holding-thumb.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>Holding Hands | 67min | Feature Doco</strong>
+                                <br /> * Cairns Queer Film Festival, Australia 2012
                             <br /> * Austin Gay and Lesbian Film Festival, USA 2011
                             <br /> * Fire Festival, Barcelona, Spain 2011
                             <br /> * Torino GLBT Film Festival, Torina 2011
@@ -179,25 +179,25 @@ function Screenings() {
                             <br /> * QueerDoc, Sydney 2009
                             <br /> * TasPride Festival, Tasmania 2009
                         </p>
+                        </div>
+
                     </div>
+
+
 
                 </div>
 
 
-
             </div>
 
-
-        </div>
-
-        <div className="container">
-            <div className="row"style={{paddingTop: "50px"}}>
-                <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
-                     <img src={require("../assets/images/vicious.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>The Vicious and The Delicious | 12min | Comedy</strong>
-                            <br /> * Fabulosa Fest, 2012
+            <div className="container">
+                <div className="row" style={{ paddingTop: "50px" }}>
+                    <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/vicious.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>The Vicious and The Delicious | 12min | Comedy</strong>
+                                <br /> * Fabulosa Fest, 2012
                             <br /> * Queer Film Night, Germany 2010
                             <br /> * Boo Hoo Film Festival, Sydney 2010
                             <br /> * MIX Milano Film Festival, Italy 2009
@@ -227,15 +227,15 @@ function Screenings() {
                             <br /> * Optus One80 Project, Australia 2008
 
                         </p>
-                    </div>
+                        </div>
 
-                </div>
-                <div className="col-lg-4 col-md-12 col-sm-12">
-                     <img src={require("../assets/images/frontbum.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>Frontbum Dancin' | 7min | Mocumentary</strong>
-                            <br /> * Fabulosa Fest, 2012
+                    </div>
+                    <div className="col-lg-4 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/frontbum.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>Frontbum Dancin' | 7min | Mocumentary</strong>
+                                <br /> * Fabulosa Fest, 2012
                             <br /> * Outtakes Film Festival, New Zealand 2009
                             <br /> * Out on Screen, Vancouver Canada 2008
                             <br /> * Indianapolis Lesbian and Gay Film Festival, USA 2008
@@ -258,24 +258,24 @@ function Screenings() {
                             <br /> * MIX Br /asil Festival of Sexual Diversity, Br /azil 2007
                             <br /> * Frameline31 San Francisco International LGBT Film Festival, USA 2007
                         </p>
+                        </div>
+
                     </div>
+
+
 
                 </div>
 
 
-
             </div>
-
-
-        </div>
-        <div className="container">
-            <div className="row" style={{paddingTop: "50px"}}>
-                <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
-                     <img src={require("../assets/images/nurses.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>Ballet School | 3min | Comedy</strong>
-                            <br /> * Selected to feature on Adikted, representing Metro Screen 2008
+            <div className="container">
+                <div className="row" style={{ paddingTop: "50px" }}>
+                    <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/nurses.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>Ballet School | 3min | Comedy</strong>
+                                <br /> * Selected to feature on Adikted, representing Metro Screen 2008
                             <br /> * Dark Carnival, Foxtel, Australia 2007
                             <br /> * Anthology of Interest, Channel 31, Australia 2007
                             <br /> * Anthology of Interest, NZTV, New Zealand
@@ -286,15 +286,15 @@ function Screenings() {
                             <br /> * The National Film and Sound Archive
 
                         </p>
-                    </div>
+                        </div>
 
-                </div>
-                <div className="col-lg-4 col-md-12 col-sm-12">
-                    <img src={require("../assets/images/wally.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>Wally | 7min | Comedy</strong>
-                            <br /> * The Joy House Film Festival, Sydney 2013
+                    </div>
+                    <div className="col-lg-4 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/wally.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>Wally | 7min | Comedy</strong>
+                                <br /> * The Joy House Film Festival, Sydney 2013
                             <br /> * Howards Shorts Film Festival, Australia 2010
                             <br /> * Silence is Golden Film Festival, Australia 2010
                             <br /> * Br /illa Short Shorts Theatre, Japan 2008
@@ -324,24 +324,24 @@ function Screenings() {
                             <br /> * Short Fuse Film Festival, Australia 2006
                             <br /> * Victorian College of the Arts (VCA) Opening Night 2005
                         </p>
+                        </div>
+
                     </div>
+
+
 
                 </div>
 
 
-
             </div>
-
-
-        </div>
-        <div className="container">
-            <div className="row" style={{paddingTop: "50px"}}>
-                <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
-                     <img src={require("../assets/images/thumbnails/tina-thumb.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>Tina Sol | 3min | Comedy</strong>
-                            <br /> * Dark Carnival, Foxtel, Australia 2007
+            <div className="container">
+                <div className="row" style={{ paddingTop: "50px" }}>
+                    <div className="col-lg-4 offset-lg-2 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/thumbnails/tina-thumb.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>Tina Sol | 3min | Comedy</strong>
+                                <br /> * Dark Carnival, Foxtel, Australia 2007
                             <br /> * Anthology of Interest, Channel 31, Australia 2007
                             <br /> * Anthology of Interest, NZTV, New Zealand
                             <br /> * Baileys Shorts on the Shore Film Festival, Australia 2007
@@ -350,32 +350,37 @@ function Screenings() {
                             <br /> * Funnybone Film Festival Australia 2006
 
                         </p>
-                    </div>
+                        </div>
 
-                </div>
-                <div className="col-lg-4 col-md-12 col-sm-12">
-                     <img src={require("../assets/images/mayo.jpg")}  className="card-img-top egg" alt="..." />
-                    <div className="card-body">
-                        <p className="card-text screeningText">
-                            <strong>Other Film Screenings</strong>
-                            <br /> <strong>Tooth for Tooth</strong>
-                            <br /> * Eye Scream Film Festival, Australia 2004
+                    </div>
+                    <div className="col-lg-4 col-md-12 col-sm-12">
+                        <img src={require("../assets/images/mayo.jpg")} className="card-img-top egg" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text screeningText">
+                                <strong>Other Film Screenings</strong>
+                                <br /> <strong>Tooth for Tooth</strong>
+                                <br /> * Eye Scream Film Festival, Australia 2004
                             <br />
-                            <br /> <strong>Psycho Love Song</strong>
-                            <br /> * Reelife Film Festival, Australia 2003
+                                <br /> <strong>Psycho Love Song</strong>
+                                <br /> * Reelife Film Festival, Australia 2003
                             <br /> * Muddy Shorts Film Festival, Western Australia 2003
                             <br /> * Eye Scream Film Festival, Australia 2003
                             <br />
-                            <br /> <strong>Inspirit</strong>
-                            <br /> * Eye Scream Film Festival, Australia 2002
+                                <br /> <strong>Inspirit</strong>
+                                <br /> * Eye Scream Film Festival, Australia 2002
                         </p>
+                        </div>
+
                     </div>
+
+
 
                 </div>
 
 
-
             </div>
+
+
 
 
         </div>
@@ -383,15 +388,10 @@ function Screenings() {
 
 
 
-    </div>
 
 
 
-
-   
-
-    
-  );
+    );
 }
 
 export default Screenings;

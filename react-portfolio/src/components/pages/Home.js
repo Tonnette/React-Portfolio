@@ -18,13 +18,13 @@ function Home() {
 							<a href={item.url}>
 								<img src={item.image} className="card-img-top thumbnail {item.classy}" alt="{item.alt}" />
 								<div className={item.theClass}>
-								
+
 									<div className="text1">{item.description}</div>
 								</div>
 							</a>
 
 						</div>
-						
+
 					</div>
 
 
