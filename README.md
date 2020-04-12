@@ -6,7 +6,7 @@ In the web developer section it showcases some of the projects I have completed 
 
 It showcases my work on a:
 - Movie review app (team project)
-- Burger eating app
+- React Employee Directory app
 - cocktail app  (team project)
 - weather app
 - quiz 
@@ -17,7 +17,7 @@ This website showcases my writing and directing work including the films Romp - 
 
 It also showcases my web developer skills including the group project, Movie Review where users can look up any movie and see member reviews. This could help them decide to watch a movie or not. Secondly, users can register as a member and this allows them to also add their own reviews. They can also go into their profile page and delete any of their reviews that they are not happy with. Contributors: Tonnette Stanford || Andy || Jesse.
 
- It also showcases a Burger eating app. where users can name all the burgers they want to eat. They can then choose to devour which every burger they want. After they devour their burger, they can then choose to delete the item. This burger app was built using MySQL, Node, Express, Handlebars and ORM. 
+It displays my employee directory that was created using React. It allows the user to filter their employees to easily find the details of specific people. It also allows the user to sort through the names in alphabetical and reverse. 
 
  I also showcase our Mixer Upper app - This is a dynamic webpage which provides users an easy and convenient to discover and create sophisticated cocktails. Cocktails can be searched by name or by ingredient, and receive an image of the cocktail, a list of ingredients and instructions on how to prepare it. The page includes buttons to post to Twitter and Facebook, as well as a button to open Google Maps and find the users closest cocktail bar. Materialize was used for CSS, and the header includes the carousel feature, and can be seen mid-change in the first image. Javascript uses the Jquery library, and the Montserrat font family is from Google Fonts. The details for the cocktails are drawn from The Cocktail Database (thecocktaildb.com) through its API. Contributors: Takuji Okubo || James Pearce || Tonnette Stanford
 
@@ -39,9 +39,9 @@ https://tonnette.github.io/newPortfolio
 https://github.com/Tonnette/React-Portfolio
 
 # Tech/framework used
-This particular website was built using bootstrap, html, CSS, JavaScript and a bit of Jquery.
+This particular website was built using React, bootstrap, html, CSS, and JavaScript.
 
-However, the projects it showcases was built with a variety of tech including html, CSS, Bootstrap, Materialize, JavaScript, JQuery, APIs, Node.js, MYSQL, NoSQL, MongoDB, MVC structure, CRUD, AJAX, Heroku.
+However, the projects it showcases was built with a variety of tech including React, Bootstrap, Materialize, JavaScript, JQuery, html, CSS, APIs, Node.js, MYSQL, NoSQL, MongoDB, MVC structure, CRUD, AJAX, Heroku.
 
 # contributors
 Tonnette Stanford
