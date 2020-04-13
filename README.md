@@ -12,7 +12,7 @@ It showcases my work on a:
 - quiz 
 - day planner 
 
-# description
+# Description
 This website showcases my writing and directing work including the films Romp - the webseries, The Egg, Milk and Vodka, Love Bytes, Slut- the Musical, Wally, Why Me, The Vicious and the Delicious and Tina Sol.
 
 It also showcases my full stack web developer skills including skills in React.
@@ -34,10 +34,10 @@ This info will save in local storage. Each hour is colour coded to reflect wheth
 # Screen Shot
 ![ScreenShot](https://github.com/Tonnette/React-Portfolio/blob/master/react-portfolio/src/components/assets/images/portfolio-screenshot.png)
 
-# website
+# Website
 https://tonnette.github.io/newPortfolio
 
-# github repo
+# Github repo
 https://github.com/Tonnette/React-Portfolio
 
 # Tech/framework used
@@ -45,7 +45,7 @@ This particular website was built using React, bootstrap, html, CSS, and JavaScr
 
 However, the projects it showcases was built with a variety of tech including React, Bootstrap, Materialize, JavaScript, JQuery, html, CSS, APIs, Node.js, MYSQL, NoSQL, MongoDB, MVC structure, CRUD, AJAX, Heroku.
 
-# contributors
+# Contributors
 Tonnette Stanford
 
 # Author
@@ -53,6 +53,3 @@ Tonnette Stanford
 
 # Licence
 There is no licence and this website is open source.
-
-# Acknowlegments
-THank you to the bootcamp staff who are teaching us these cool new skills!
