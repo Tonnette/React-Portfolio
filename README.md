@@ -15,7 +15,9 @@ It showcases my work on a:
 # description
 This website showcases my writing and directing work including the films Romp - the webseries, The Egg, Milk and Vodka, Love Bytes, Slut- the Musical, Wally, Why Me, The Vicious and the Delicious and Tina Sol.
 
-It also showcases my web developer skills including the group project, Movie Review where users can look up any movie and see member reviews. This could help them decide to watch a movie or not. Secondly, users can register as a member and this allows them to also add their own reviews. They can also go into their profile page and delete any of their reviews that they are not happy with. Contributors: Tonnette Stanford || Andy || Jesse.
+It also showcases my full stack web developer skills including skills in React.
+
+Some of my projects include the Movie Review app (group project) where users can look up any movie and see member reviews. This could help them decide to watch a movie or not. Secondly, users can register as a member and this allows them to also add their own reviews. They can also go into their profile page and delete any of their reviews that they are not happy with. Contributors: Tonnette Stanford || Andy || Jesse.
 
 It displays my employee directory that was created using React. It allows the user to filter their employees to easily find the details of specific people. It also allows the user to sort through the names in alphabetical and reverse. 
 
@@ -30,7 +32,7 @@ It also showcases:
 This info will save in local storage. Each hour is colour coded to reflect whether the time slot is in the past, the present, or the future. The colours will change depending on the time of day. Grey for past, pink for present and green for future hours.
 
 # Screen Shot
-![ScreenShot](https://github.com/Tonnette/React-Portfolio/blob/master/react-portfolio/public/react-screenshot.png)
+![ScreenShot](https://github.com/Tonnette/React-Portfolio/blob/master/react-portfolio/src/components/assets/images/portfolio-screenshot.png)
 
 # website
 https://tonnette.github.io/newPortfolio
