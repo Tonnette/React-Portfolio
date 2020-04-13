@@ -32,7 +32,7 @@ It also showcases:
 This info will save in local storage. Each hour is colour coded to reflect whether the time slot is in the past, the present, or the future. The colours will change depending on the time of day. Grey for past, pink for present and green for future hours.
 
 # Screen Shot
-![ScreenShot](https://github.com/Tonnette/React-Portfolio/blob/master/react-portfolio/public/portfolio-screenshot.png)
+![ScreenShot](https://github.com/Tonnette/React-Portfolio/blob/master/src/components/assets/images/portfolio-screenshot.png)
 
 # Website
 https://tonnette.github.io/newPortfolio
