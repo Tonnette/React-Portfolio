@@ -23,15 +23,14 @@ function WebBio() {
                                     <img className="float-left mr-2 mb-1 myImage" src={require("./assets/images/ton.jpg")} alt="toni posing in New Zealand" /> 
                                 Tonnette is a full stack Web Developer based in
                                 Sydney. She is currently completing a coding
-                                bootcamp run by Sydney University and Trilogy Education. She has skills is React, Node.js, HTML, CSS, JavaScript, JQuery, APIs, Bootstrap, 
-                                Materialize MYSQL, NoSQL, MongoDB, MVC structure, CRUD, AJAX,
-                                Heroku. She has used numerous NPM packages in her projects including Express.js, Sequalize, Handlebars, Passport, Bcryptjs and Path
+                                bootcamp run by Sydney University and Trilogy Education. She has skills in React, Node.js, JavaScript, JQuery, HTML, CSS, APIs, Bootstrap, 
+                                Materialize, MYSQL, NoSQL, MongoDB, MVC structure, CRUD, AJAX,
+                                Heroku. She has used numerous NPM packages in her projects including Express.js, Sequalize, Handlebars, Passport, Bcryptjs and Path.
 
 
 
                                 She has worked on numerous web
-                                projects including front-end websites, back-end and full-stack apps. Some of her project include a movie review app (group project), a
-                                burger app, a cocktail-making website (group project), a weather
+                                projects including front-end websites, back-end and full-stack apps. Some of her project include a react employee directory app, a movie review app (group project), a cocktail-making website (group project), a weather
                                 app, a day-planner, a password generator, and various other websites.
 
                             </p>
