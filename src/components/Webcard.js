@@ -1,11 +1,14 @@
 import React from "react";
+import projects from "./pages/projects.json";
 
 // Whenever we try to render an array containing JSX, React knows to render each JSX element separately
-function Webcard(props) {
+function Webcard() {
   return (
     <div className="container">
                     <br></br>
-                    {props.projects.map(item => (
+                    
+                    {projects.map(item => (
+                    
                         <div className="card" key={item.id}>
 
                             <div className="card-header">
