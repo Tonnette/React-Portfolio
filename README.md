@@ -35,7 +35,7 @@ This info will save in local storage. Each hour is colour coded to reflect wheth
 ![ScreenShot](https://github.com/Tonnette/React-Portfolio/blob/master/src/components/assets/images/portfolio-screenshot.png)
 
 # Website
-https://ancient-peak-60533.herokuapp.com/
+https://tonnette-portfolio.herokuapp.com/
 
 # Github repo
 https://github.com/Tonnette/React-Portfolio
