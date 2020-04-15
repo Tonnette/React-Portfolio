@@ -17,9 +17,9 @@ function Contact() {
 
         </div>
         <div className="contactButtons">
-          <a href="https://github.com/Tonnette" target="_blank" className="btn btn-outline-info">GitHub</a> &nbsp;
-            <a href="https://www.linkedin.com/in/tonnette-stanford-16b99625/" target="_blank" className="btn btn-outline-info">LinkedIn</a> &nbsp;
-            <a href={pdf} target="_blank" className="btn btn-outline-info">CV</a>
+          <a href="https://github.com/Tonnette" target="_blank" rel="noopener noreferrer" className="btn btn-outline-info">GitHub</a> &nbsp;
+            <a href="https://www.linkedin.com/in/tonnette-stanford-16b99625/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-info">LinkedIn</a> &nbsp;
+            <a href={pdf} target="_blank" rel="noopener noreferrer" className="btn btn-outline-info">CV</a>
 
 
 

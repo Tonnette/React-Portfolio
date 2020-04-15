@@ -1,5 +1,4 @@
 import React from "react";
-import projects from "./pages/projects.json";
 
 // Whenever we try to render an array containing JSX, React knows to render each JSX element separately
 function Webcard(props) {
@@ -16,16 +15,16 @@ function Webcard(props) {
 
                             <div className="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-12">
                                 <p className="myText">
-                                    <a href={item.url} target="_blank">
+                                    <a href={item.url} target="_blank" rel="noopener noreferrer">
                                         <img className="float-left mr-2 mb-1 myImage" src={item.image}
                                             alt={item.alt} />
                                     </a>
                                     {item.description}
                                 </p>
                                 <div className="profileButton">
-                                    <a href={item.url} target="_blank"
+                                    <a href={item.url} target="_blank" rel="noopener noreferrer"
                                         className="btn btn-outline-info">{item.name} App</a> &nbsp;
-                                        <a href={item.github} target="_blank"
+                                        <a href={item.github} target="_blank" rel="noopener noreferrer"
                                         className="btn btn-outline-info">Github Repo</a> &nbsp;
                                     </div>
                             </div>

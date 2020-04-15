@@ -20,7 +20,7 @@ function WebBio() {
                         <div className="row myRowBio">
                             <div className="col-lg-12 col-md-12 col-sm-12">
                                 <p className="myText">
-                                    <img className="float-left mr-2 mb-1 myImage" src={require("./assets/images/ton.jpg")} alt="toni posing for a photo in New Zealand" /> 
+                                    <img className="float-left mr-2 mb-1 myImage" src={require("./assets/images/ton.jpg")} alt="toni posing in New Zealand" /> 
                                 Tonnette is a full stack Web Developer based in
                                 Sydney. She is currently completing a coding
                                 bootcamp run by Sydney University and Trilogy Education. She has skills is React, Node.js, HTML, CSS, JavaScript, JQuery, APIs, Bootstrap, 
@@ -36,11 +36,11 @@ function WebBio() {
 
                             </p>
                                 <div className="profileButton">
-                                    <a href="https://github.com/Tonnette" target="_blank"
+                                    <a href="https://github.com/Tonnette" target="_blank" rel="noopener noreferrer"
                                         className="btn btn-outline-info">GitHub</a> &nbsp;
-                                <a href="https://www.linkedin.com/in/tonnette-stanford-16b99625/" target="_blank"
+                                <a href="https://www.linkedin.com/in/tonnette-stanford-16b99625/" target="_blank" rel="noopener noreferrer"
                                         className="btn btn-outline-info">LinkedIn</a> &nbsp;
-                                <a href={pdf} target="_blank" className="btn btn-outline-info">CV</a>
+                                <a href={pdf} target="_blank" rel="noopener noreferrer" className="btn btn-outline-info">CV</a>
                                 </div>
 
                             </div>

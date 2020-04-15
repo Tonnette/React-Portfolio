@@ -25,7 +25,7 @@ function Egg() {
 
                             </p>
                                     <div className="profileButton">
-                                        <a href="screenings" target="_blank" className="btn btn-outline-info">Screenings</a> &nbsp;
+                                        <a href="screenings" target="_blank" rel="noopener noreferrer" className="btn btn-outline-info">Screenings</a> &nbsp;
 
 
                             </div>

@@ -27,7 +27,7 @@ function Milk() {
 
                             </p>
                                     <div class="profileButton">
-                                        <a href="screenings" target="_blank" class="btn btn-outline-info">Screenings</a> &nbsp;
+                                        <a href="screenings" target="_blank" rel="noopener noreferrer" class="btn btn-outline-info">Screenings</a> &nbsp;
 
 
 

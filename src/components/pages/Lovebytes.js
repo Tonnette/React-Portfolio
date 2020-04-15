@@ -30,7 +30,7 @@ function Lovebytes() {
 
                             </p>
                                     <div class="profileButton">
-                                        <a href="https://www.youtube.com/channel/UC4NIIKWFBOxPvuN3HMqegMQ?view_as=subscriber" target="_blank" class="btn btn-outline-info">WATCH HERE</a> &nbsp;
+                                        <a href="https://www.youtube.com/channel/UC4NIIKWFBOxPvuN3HMqegMQ?view_as=subscriber" target="_blank" rel="noopener noreferrer" class="btn btn-outline-info">WATCH HERE</a> &nbsp;
 
 
                             </div>

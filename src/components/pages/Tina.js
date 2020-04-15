@@ -28,8 +28,8 @@ function Tina() {
                                         <br />This award winning short film was made at the Victorian College of the Arts.
                                     </p>
                                     <div class="profileButton">
-                                        <a href="screenings" target="_blank" class="btn btn-outline-info">Screenings</a> &nbsp;
-                                <a href="awards" target="_blank" class="btn btn-outline-info">Awards</a> &nbsp;
+                                        <a href="screenings" target="_blank" rel="noopener noreferrer" class="btn btn-outline-info">Screenings</a> &nbsp;
+                                <a href="awards" target="_blank" rel="noopener noreferrer" class="btn btn-outline-info">Awards</a> &nbsp;
 
                             </div>
 
